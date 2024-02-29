@@ -2,7 +2,6 @@ import '../index.css'
 import Example1 from '../assets/example1.png'
 import Example2 from '../assets/example2.png'
 
-
 function Form(){
     return(
     <body>
@@ -55,6 +54,14 @@ function Form(){
             <li>API: <a href=" http://thesimpsonsquoteapi.glitch.me/" className='link2'> http://thesimpsonsquoteapi.glitch.me/</a></li>
 
             <p className='repo'><b>Github repo:</b></p>
+
+            <div className='character'>
+                <h1 className='title-character'>The Simpsons Character</h1>
+                <p id="simpsons-quote"></p>
+                <h2 id="simpsons-name"></h2>
+                <img id="simpsons-image" width="100px" src="" alt="The Simpsons"/>
+            </div>
+            
 
         </section>
 
